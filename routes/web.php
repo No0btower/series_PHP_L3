@@ -13,5 +13,5 @@
 
 
 Route::get('/', 'NonConnecteController@accueil');
-Route::get('/inscription', 'NonConnecteController@inscription');
+Route::get('inscription/', 'NonConnecteController@inscription');
 

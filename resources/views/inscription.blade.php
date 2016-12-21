@@ -13,7 +13,16 @@ $htmlPresentation='
     <div class="section">
         <div class="container">
             <div class="row">
-
+                <div class="col-lg-6 col-md-6">
+                    <div class="block">
+                        <h3>Connexion</h3>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="block">
+                        <h3>Inscription</h3>
+                    </div>
+                </div>
              </div>
          </div>
     </div>

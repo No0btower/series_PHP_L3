@@ -27,7 +27,6 @@ class GlobalView
                     <meta name="viewport" content="width=device-width, initial-scale=1">
                     <link rel="stylesheet" type="text/css" href="/Series_PHP_L3/resources/assets/css/bootstrap.min.css">
                     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-                    <link href="/Series_PHP_L3/resources/assets/css/style.css" rel="stylesheet" type="text/css">
                     <link href="/Series_PHP_L3/resources/assets/css/siteCss.css" rel="stylesheet" type="text/css">
                 </head>
         <body id="image_Ecran">' . self::$rtcarret;
