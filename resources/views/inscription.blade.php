@@ -13,15 +13,23 @@ $htmlPresentation='
     <div class="section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <div class="block">
-                        <h3>Connexion</h3>
-                    </div>
+                <div class="col-lg-4 col-md-4 block">
+                    <h2>Connexion</h2>
+                    <form method="post" action="/">
+                        <p> Nom d\'utilisateur : <input type="text" name="utilisateur"/> </p>
+                        <p> Mot de passe : <input type="password" name="mdp"/> </p>
+                        <p class="text-center"> <input class="btn btn-md btn-warning" type="submit" name="connexion" value="Se connecter"/></p>
+                    </form>
                 </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="block">
-                        <h3>Inscription</h3>
-                    </div>
+                <div class="col-lg-4 col-md-4 block">
+                    <h2>Inscription</h2>
+                    <form method="post" action="/">
+                        <p> Nom d\'utilisateur : <input type="text" name="utilisateur"/> </p>
+                        <p> Mot de passe : <input type="password" name="mdp"/> </p>
+                        <p> Verifier mot de passe : <input type="password" name="mdp2"/> </p>
+                        <p> Adresse : <input type="text" name="adresse"/> </p>
+                        <p class="text-center"> <input class="btn btn-md btn-warning" type="submit" name="connexion" value="S\'inscrire"/></p>
+                    </form>
                 </div>
              </div>
          </div>

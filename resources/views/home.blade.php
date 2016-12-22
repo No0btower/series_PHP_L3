@@ -17,7 +17,9 @@ $htmlPresentation='
              </div>
              <div class="row">
                     <div class="saut_ligne">
-                        <a class="btn btn-lg btn-warning" href="https://lmgtfy.com/?q=Comment+cr%C3%A9e+une+page+d%27inscription+html%5Ccss+%3A3" title="Troll">Regarder des séries</a>
+                    <form method="get" action="index.php/inscription">
+                        <p class="text-left"> <input class="btn btn-lg btn-warning" type="submit" name="connexion" value="Regarder des séries"/></p>
+                    </form>
                     </div>
              </div>
          </div>
